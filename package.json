@@ -1,0 +1,25 @@
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "This is a test directory to learn GIT and NODE",
+  "main": "index.html",
+  "scripts": {
+    "start":"npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/THE-NOS44/git-test.git"
+  },
+  "author": "Saurabh Yadav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/THE-NOS44/git-test/issues"
+  },
+  "homepage": "https://github.com/THE-NOS44/git-test#readme",
+  "devDependencies": {
+    "lite": "^4.0.5",
+    "lite-server": "^2.6.1"
+  }
+}
